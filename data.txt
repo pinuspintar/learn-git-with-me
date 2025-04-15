@@ -1,0 +1,24 @@
+Ini adalah file data.txt sederhana untuk latihan Git.
+
+Silakan ubah teks di bawah ini untuk mempraktikkan git add, commit, push, dan pull:
+
+------------------------
+NAMA: [Isi nama Anda di sini]
+TANGGAL: [Tanggal hari ini]
+PESAN: [Tulis pesan singkat]
+------------------------
+
+Daftar Tugas Latihan Git:
+1. Clone repository
+2. Buat branch baru
+3. Modifikasi file ini
+4. Add dan commit perubahan
+5. Push ke repository
+6. Buat pull request
+7. Merge perubahan
+
+Anda juga dapat menambahkan baris-baris baru di bawah ini untuk mencatat latihan Anda:
+
+------------------------
+[Isi catatan Anda di sini]
+------------------------

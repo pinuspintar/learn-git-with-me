@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Git dengan Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Datang di Latihan Git</h1>
+            <p>Repository ini dibuat untuk belajar Git dengan Editor Interaktif</p>
+        </header>
+        <main>
+            <section class="feature">
+                <h2>Apa itu Git?</h2>
+                <p>Git adalah sistem kontrol versi terdistribusi yang dirancang untuk menangani proyek kecil hingga sangat besar dengan kecepatan dan efisiensi.</p>
+            </section>
+
+	    <section class="feature">
+                <h2>Mengapa Belajar Git?</h2>
+                <p>Git memungkinkan Anda untuk:</p>
+                <ul>
+                    <li>Melacak perubahan pada kode</li>
+                    <li>Berkolaborasi dengan tim</li>
+                    <li>Mengelola versi proyek</li>
+                    <li>Mencadangkan kode dengan aman</li>
+                </ul>
+            </section>
+            
+            <section class="editor-section">
+                <h2>Editor Interaktif</h2>
+                <p>Gunakan editor di bawah ini untuk melakukan perubahan, lalu praktikkan Git:</p>
+                
+                <div class="editor-controls">
+                    <button id="randomizeBtn">Acak Konten</button>
+                    <button id="saveBtn">Simpan Perubahan</button>
+                    <button id="resetBtn">Reset</button>
+                </div>
+                
+                <div class="editor-container">
+                    <div class="editor-header">
+                        <span>Editor.txt</span>
+                    </div>
+                    <textarea id="codeEditor" spellcheck="false" placeholder="Tulis kode atau teks di sini...">// Ini adalah file latihan untuk Git
+// Anda dapat mengubah konten ini secara manual
+// atau menggunakan tombol "Acak Konten"
+
+/*
+ * Langkah-langkah latihan Git:
+ * 1. Ubah konten file ini
+ * 2. Jalankan git add .
+ * 3. Commit perubahan dengan git commit -m "Pesan commit"
+ * 4. Push ke repository dengan git push
+ */
+
+function helloGit() {
+    console.log("Hello, Git!");
+    return "Latihan Git Berhasil!";
+}
+
+// TODO: Tambahkan kode Anda di sini</textarea>
+                </div>
+                
+                <div class="file-status">
+                    <h3>Status File</h3>
+                    <div id="saveStatus">Tidak ada perubahan</div>
+                    <div id="lastSaved">Terakhir disimpan: -</div>
+                </div>
+            </section>
+            
+            <section class="history-section">
+                <h2>Riwayat Perubahan</h2>
+                <div id="fileHistory">
+                    <div class="history-item">
+                        <div class="commit-info">
+                            <span class="commit-id">Initial commit</span>
+                            <span class="commit-date">15 April 2025</span>
+                        </div>
+                        <div class="commit-message">Membuat file awal</div>
+                    </div>
+                    <!-- Riwayat perubahan akan ditambahkan di sini oleh JavaScript -->
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Latihan Git dengan Editor &copy; 2025</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

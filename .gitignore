@@ -1,0 +1,47 @@
+# File .gitignore untuk latihan Git
+
+# Direktori yang dibuat sistem operasi
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# File backup editor
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Direktori dan file log
+logs/
+*.log
+npm-debug.log*
+
+# Dependensi
+node_modules/
+vendor/
+
+# File build
+dist/
+build/
+out/
+
+# File konfigurasi lingkungan
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# File IDE/editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.iml
+*.ipr
+*.iws
+
+# File latihan (tambahkan file yang tidak ingin ditrack)
+# latihan/
+# tugas/
